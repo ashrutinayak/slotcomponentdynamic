@@ -2,8 +2,8 @@
   <div>
     <form>
       <div id="form-header">
-        <h2>Second form</h2>
-        <input type="text" placeholder="Enter person full name" />
+        <h2>Main Form</h2>
+         <input type="text" placeholder="Enter person full name" />
         <br />
         <input type="number" placeholder="Enter person Mobile number" />
         <br />
@@ -11,14 +11,14 @@
         <br />
         <input type="password" placeholder="Enter the Password" />
         <br />
-        <button v-on:click="handleSubmit">Submit</button>
+         <button v-on:click="handleSubmit">Submit</button>
       </div>
       <!-- <div id="form-field">
         <slot name="form-field"></slot>
       </div>
       <div id="form-control">
         <slot name="form-control"></slot>
-      </div>-->
+      </div> -->
     </form>
   </div>
 </template>
